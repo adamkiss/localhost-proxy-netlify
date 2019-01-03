@@ -4,7 +4,7 @@ ID = 'localhost-proxy'
 [[redirects]]
 from = "/:domain.localhost"
 to = "http://:domain.localhost"
-status = 200
+status = 301
 
 [[redirects]]
 from = "/*"
