@@ -1,0 +1,9 @@
+[[redirects]]
+from = "/*.localhost"
+to = "http://:splat.localhost"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "https://ddg.gg/:splat"
+status = 301
